@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainContainer{
+    background-image: url("img/bg.jpg");
+    background-color: white;
+    position: relative;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.contents{
+    color:black;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.toplinks{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4px;
+    border-bottom: 3px solid white;
+    background-color:rgb(192, 17, 17);
+}
+/* .loginregisterlink{
+    margin: 0 20px 0 20px;
+    color: white;
+    text-decoration: none;
+} */
+/* navbar style */
+.navbg{
+    background-color: rgb(192, 17, 17);
+    color: white;
+}
+.logoname {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* registration */
+
+/* about */
+.loc{
+    display: flex;
+    justify-content: center;
+}
+/* parking area */
+/* .status{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    margin-left: 80%;
+    border: 1px solid black;
+} */
+/* indicator style */
+.status{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 80%;
+    border: 1px solid black;
+}
+/* userdashboard */
+
+/* backtotop */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
